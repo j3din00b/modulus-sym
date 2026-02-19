@@ -140,7 +140,7 @@ class Tessellation(Geometry):
                 if airtight:
                     # Import locally to avoid pickling issues with multiprocessing
                     import torch
-                    from physicsnemo.utils.sdf import signed_distance_field
+                    from physicsnemo.nn.functional import signed_distance_field
 
                     torch_vertices = torch.from_numpy(store_triangles)
                     torch_indices = torch.arange(

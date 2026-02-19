@@ -25,6 +25,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Dependencies
 
+- Updated package to use `physicsnemo` v2.0 APIs
+
 ## [2.3.0] - 2025-11-17
 
 ### Added
